@@ -13,8 +13,8 @@ import com.twilio.type.PhoneNumber;
 public class NotificationSystem {
 
     // Find your Account Sid and Token at twilio.com/user/account
-    public static final String ACCOUNT_SID = "AC2579b05e5698296e94bf417f320658b5";
-    public static final String AUTH_TOKEN = "ce497e60ecc308f10bc6ee6aff6a24bc";
+    public static final String ACCOUNT_SID = "";
+    public static final String AUTH_TOKEN = "";
 
 
     public String sendMessage(TvShow show) throws ApiException,InvalidDefinitionException, NoSuchMethodError
@@ -24,8 +24,8 @@ public class NotificationSystem {
         String notification;
         String showTitle, network;
 
-        userNum =  "+447949249986";
-        senderNum = "+441725762039";
+        userNum =  "";
+        senderNum = "";
         showTitle = show.getName();
         network = show.network;
         notification = "There are 30 minutes until "+ showTitle +" is showing on "+ network;
